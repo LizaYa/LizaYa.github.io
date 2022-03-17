@@ -6,7 +6,7 @@ layout: home
 <div style="text-align: center;"><h1>Yelizaveta Yashin</h1></div>
 ____
 <div style="text-align: center;">
-Winnipeg, Manitoba, CA | (204) 869-0012 | liza.ya3011@gmail.com | LinkedIn: liza-yashin| GitHub: LizaYa 
+Winnipeg, Manitoba, CA  | liza.ya3011@gmail.com | LinkedIn: liza-yashin| GitHub: LizaYa 
 </div>
 <br>
 
