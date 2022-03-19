@@ -9,12 +9,6 @@ The following instructions will explain how to locally test your resume using Jy
 * Prepared resume in Markdown format
 * Installed Jeykll on your machine
 * Markdown editor (such as Atom, Typora, Visual Code etc.)
- 
-  ### More Resources:
-  * [What is Markdown?](https://www.markdownguide.org/getting-started/)
-  * [Markdown Tutorial](https://www.markdowntutorial.com/)
-  * [Jekyll Tutorial](https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)
-  * [Markdown Editors](https://www.shopify.ca/partners/blog/10-of-the-best-markdown-editors)
 
 ## Instructions
 
@@ -34,6 +28,15 @@ The following instructions will explain how to locally test your resume using Jy
 * Commit your code 
 * Your resume site should not be hosted on `github_username`.github.io
 
+## Example:
+![My Resume](ezgif.com-gif-maker.gif)
+
+ ### More Resources:
+ * [What is Markdown?](https://www.markdownguide.org/getting-started/)
+ * [Markdown Tutorial](https://www.markdowntutorial.com/)
+ * [Jekyll Tutorial](https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)
+ * [Markdown Editors](https://www.shopify.ca/partners/blog/10-of-the-best-markdown-editors)
+ * [Modern Technical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
 
 
 
