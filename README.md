@@ -18,27 +18,27 @@ The following instructions will explain how to locally test your resume using Jy
     #### Install Jekyll:
     * Make sure you have Ruby version at least 2.1 installed. You can run `ruby -v` in your terminal to verify this. 
     
-    If you do not have ruby or need to upgrade the version: 
-    
-    [Install Ruby on windows](https://rubyinstaller.org/)
-    
-    [Install Ruby on macOS](https://mac.install.guide/ruby/index.html)
+        If you do not have ruby or need to upgrade the version: 
+
+        [Install Ruby on windows](https://rubyinstaller.org/)
+
+        [Install Ruby on macOS](https://mac.install.guide/ruby/index.html)
     * In the terminal run `gem install jekyll bundler` to install Jekyll
-3) In this tutorial, we are using Github pages to host our resume. As was suggested by Andrew Etter, Github pages has not server dependencies and no database, so working with this is very easy. Also, Gitgub pages is compatible with Jekyll. 
+2) In this tutorial, we are using Github pages to host our resume. As was suggested by Andrew Etter, Github pages has not server dependencies and no database, so working with this is very easy. Also, Gitgub pages is compatible with Jekyll. 
 
-To use Github pages, first open a new repository in Github and name it `yourGithubUsername.github.io`
-5) Clone your repositor. To do this step, go to your repository and copy HTTPS:
+      To use Github pages, first open a new repository in Github and name it `yourGithubUsername.github.io`
+3) Clone your repository. To do this step, go to your repository on Github and copy HTTPS:
 
-<img width="278" alt="image" src="https://user-images.githubusercontent.com/56234653/159128292-a8bf4200-dea2-40d2-b9a3-aaacaf356a03.png">
+    <img width="278" alt="image" src="https://user-images.githubusercontent.com/56234653/159128292-a8bf4200-dea2-40d2-b9a3-aaacaf356a03.png">
 
 Go to a directory where you want your project to be created in your computer, open the terminal and run
 
     git clone YOUR_HTTPS_URL
 
-7) Open the project in your text editor (I use VS code). We are using a Markdown editor as it is much easier and convenient to edit markdown files.
-8) Run the following commend inside the project directory in a terminal: ``jekyll new yourProjectName``. This will create a Jekyll folder inside your project folder with all the required files.            
-9) Move all the generated files to your project folder and delete the empty folder that is left. 
-10) run ``bundle add webrick``. You should end up with the following files:
+4) Open the project in your text editor (I use VS code). We are using a Markdown editor as it is much easier and convenient to edit markdown files.
+5) Run the following commend inside the project directory in a terminal: ``jekyll new yourProjectName``. This will create a Jekyll folder inside your project folder with all the required files.            
+6) Move all the generated files to your project folder and delete the empty folder that is left. 
+7) run ``bundle add webrick``. You should end up with the following files:
 
     ![image](https://user-images.githubusercontent.com/56234653/159091902-780d86dd-46c1-4402-8904-2e321bebd908.png)
 8) You can modify the file `index.markdown` and write your resume there.
@@ -49,13 +49,13 @@ Testing locally your site before publishing it to your respository is very impor
     bundle exec jekyll serve
     
 ## Deployment
-* (Commit)[https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/] your code to your main branch 
+* [Commit](https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/) your code to your main branch 
 * Your resume site should now be hosted on `https://yourGithubUsername.github.io/`
 
 ## Example:
 ![](ezgif.com-gif-maker.gif) 
 
-[Click here for example](https://lizaya.github.io/) 
+[https://lizaya.github.io/](https://lizaya.github.io/) 
 
  ## More Resources:
  * [What is Markdown?](https://www.markdownguide.org/getting-started/)
