@@ -29,7 +29,7 @@ The following instructions will explain how to locally test your resume using Jy
 * Your resume site should not be hosted on `github_username`.github.io
 
 ## Example:
-![My Resume](ezgif.com-gif-maker.gif)
+![[My Resume](ezgif.com-gif-maker.gif)](https://lizaya.github.io/)
 
  ### More Resources:
  * [What is Markdown?](https://www.markdownguide.org/getting-started/)
