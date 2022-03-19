@@ -58,6 +58,7 @@ Testing locally your site before publishing it to your respository is very impor
 Why is it a good idea to have a static page for your resume?
 #### Answer: 
 They are fast, simple, and reliable. You do not need any dependencies, databases, servers etc. It is much easier and convenient to update a static page and updating a a PDF resume and saving many copies of it on your machine.
+__________
 #### Question: 
 How can I remove the header and the footer?
 #### Answer: 
