@@ -14,9 +14,12 @@ The following instructions will explain how to locally test your resume using Jy
 
 ## Instructions
 
-1) Jekyll is a popular static page generator and as reccomended by Andrew Etter, we will be using Jekyll.
+1) Jekyll is a popular static page generator and as recommended by Andrew Etter, we will be using Jekyll.
     #### Install Jekyll:
-    In the terminal run `gem install jekyll bundler`
+    * Make sure you have Ruby version at least 2.1 installed. You can run `ruby -v` in your terminal to verify this. If you do not have ruby or need to upgrade the version: 
+    [Install Ruby on windows](https://rubyinstaller.org/)
+    [Install Ruby on macOS](https://mac.install.guide/ruby/index.html)
+    * In the terminal run `gem install jekyll bundler`to install Jekyll
 3) In this tutorial, we are using Github pages to host our resume. As was suggested by Andrew Etter, Github pages has not server dependencies and no database, so working with this is very easy. To use Github pages, first open a new repository and name it `yourGithubUsername.github.io`
 4) Clone your repository and open the project in your text editor (I use VS code). We are using a Markdown editor as it is much easier and convenient.
 5) Run the following commend inside the project directory: ``jekyll new yourProjectName``. This will create a Jekyll folder inside your project folder with all the required files.            
