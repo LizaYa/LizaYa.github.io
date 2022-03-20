@@ -1,14 +1,20 @@
 # Host Resume on Github Pages 
 
-This is a tutorial on how to easily host a resume using Jeykll, Markdown, Markdown editor, and Github pages.
+This is a tutorial on how to easily host a resume using Jeykll, Markdown, Markdown editor, and Github pages. You can host other documentations using this tutorial that is not necessarily a resume. 
+
+## Tips for writing
+* Whether you decide to write a resume or Software documentation, make sure to not write immediately. One of the concepts that Andrew Etter suggested is to first do research and understand what the readers want to achieve by reading your resume/documentation. 
+* It is important to define the audience. If you are writing a resume, you should assume that the hiring managers will understand that it is a resume. 
+* According to Andrew Etter's book, you should avoid writing from memory. If you include a course you completed, verify the contents you studied and what projects you did, rather than writing about it from your brief memory. 
+* Make sure you are consistent in your resume. If you use the word "Javascript", avoid using "javascript" somewhere in the middle of the resume. If you decide to proceed with capital "J", do this across the entire resume.
+* Do not duplicate sentences, experience, knowledge in your resume/ documentation and break it into topics such as School, Experience, Skills. It will allow you to go back and change something specific rather than traversing through the entire resume to see where the change has to occur.
 
 ## Getting Started
 
 The following instructions will explain how to locally test your resume using Jykll and how to host it on Github pages. 
 
 ## Prerequisites
-
-* Prepared resume in Markdown format
+* Prepared resume in Markdown format - see tips above for writing a resume, and additional resources for how to use Markdown
 * Ruby version 2.1 or higher
 * Markdown editor (such as Atom, Typora, Visual Code etc.)
 
@@ -24,7 +30,7 @@ The following instructions will explain how to locally test your resume using Jy
 
         [Install Ruby on macOS](https://mac.install.guide/ruby/index.html)
     * In the terminal run `gem install jekyll bundler` to install Jekyll
-2) In this tutorial, we are using Github pages to host our resume. As was suggested by Andrew Etter, Github pages has not server dependencies and no database, so working with this is very easy. Also, Gitgub pages is compatible with Jekyll. 
+2) In this tutorial, we are using Github pages to host our resume. As was suggested by Andrew Etter, Github pages has no server dependencies and no database, so working with this is very easy. Also, Gitgub pages is compatible with Jekyll. 
 
       To use Github pages, first open a new repository in Github and name it `yourGithubUsername.github.io`
 3) Clone your repository. To do this step, go to your repository on Github and copy HTTPS:
@@ -36,9 +42,13 @@ Go to a directory where you want your project to be created in your computer, op
     git clone YOUR_HTTPS_URL
 
 4) Open the project in your text editor (I use VS code). We are using a Markdown editor as it is much easier and convenient to edit markdown files.
-5) Run the following commend inside the project directory in a terminal: ``jekyll new yourProjectName``. This will create a Jekyll folder inside your project folder with all the required files.            
-6) Move all the generated files to your project folder and delete the empty folder that is left. 
-7) run ``bundle add webrick``. You should end up with the following files:
+5) Run the following commend inside the project directory in a terminal: 
+    
+        jekyll new yourProjectName 
+    
+    This will create a Jekyll folder inside your project folder with all the required files.            
+7) Move all the generated files to your project folder and delete the empty folder that is left. 
+8) run ``bundle add webrick``. You should end up with the following files:
 
     ![image](https://user-images.githubusercontent.com/56234653/159091902-780d86dd-46c1-4402-8904-2e321bebd908.png)
 8) You can modify the file `index.markdown` and write your resume there.
@@ -51,6 +61,7 @@ Testing locally your site before publishing it to your respository is very impor
 ## Deployment
 * [Commit](https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/) your code to your main branch 
 * Your resume site should now be hosted on `https://yourGithubUsername.github.io/`
+* You should publish your resume frequently. If you graduated, changed jobs, gained additional knowledge, consider updating and committing your resume.
 
 ## Example:
 ![](ezgif.com-gif-maker.gif) 
