@@ -64,7 +64,7 @@ Testing locally your site before publishing it to your respository is very impor
 * You should publish your resume frequently. If you graduated, changed jobs, gained additional knowledge, consider updating and committing your resume.
 
 ## Example:
-![](ezgif.com-gif-maker.gif) 
+![](Animation.gif) 
 
 [https://lizaya.github.io/](https://lizaya.github.io/) 
 
@@ -79,8 +79,6 @@ Testing locally your site before publishing it to your respository is very impor
 * Liza Yashin
 * Group members:
     - Rhushabh Patel
-    - Xianfeng Lang
-    - Sangil Han
     - Brett Lungal
 * Template Authors - Github profiles: 
     - Billie Thompson
