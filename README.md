@@ -77,6 +77,11 @@ Testing locally your site before publishing it to your respository is very impor
 
 ## Authors and Acknowledgments:
 * Liza Yashin
+* Group members:
+    - Rhushabh Patel
+    - Xianfeng Lang
+    - Sangil Han
+    - Brett Lungal
 * Template Authors - Github profiles: 
     - Billie Thompson
     - CaduGoncalves96
